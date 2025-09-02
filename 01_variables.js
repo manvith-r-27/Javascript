@@ -7,6 +7,7 @@ var accPass = "234555454"
 accCity = "Chennai"
 let accState;
 
+// Changing values and see whether it updates
 accEmail = "karan@gmail.com"
 accPass = "20493rw834025"
 
