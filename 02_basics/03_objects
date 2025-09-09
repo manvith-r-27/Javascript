@@ -1,0 +1,22 @@
+// Create a symbol
+let uniqueId = Symbol("id");
+
+// Object with function inside
+let user = {
+  name: "Manvith",
+  age: 22,
+  isAdmin: true,
+  hobbies: ["reading", "gaming"],
+  address: {
+    city: "Bengaluru",
+    zip: 10001
+  },
+  [uniqueId]: 12345,
+  
+  greet: function() { // function inside object
+    console.log(`Hello, ${this.name}! You are ${this.age} years old.`);
+  }
+};
+console.log(typeof uniqueId)
+// Call the function
+user.greet(); // Hello, John Doe! You are 30 years old.
