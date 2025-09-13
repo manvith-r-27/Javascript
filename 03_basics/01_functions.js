@@ -13,4 +13,4 @@ function loginUsermessage(username){
 function addShoppingcart(...num1){
     return num1
 }
-console.log(addShoppingcart(1,2,34,50))
+// console.log(addShoppingcart(1,2,34,50))
